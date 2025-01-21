@@ -1,7 +1,42 @@
-1. Abrir meus repositórios 
+1. Instalar o Git 
+https://git-scm.com/downloads/win
 
-2. Criar um novo repositório
+1.1 Configurar o git com o usuário e email do Github (fazer a conexão da máquina local com usuário remoto)
 
-3. Nomear repositório
+      - git config --global user.name "nomedousuário"
+      - git config --global user.email "seuemail@.com"
 
-4. Criar repositório
+-----------------------------------------------------------------------------------------------------------
+2. Logar no site Github 
+
+3. Abrir meus repositórios 
+
+4. Clicar em novo repositório
+
+5. Nomear repositório
+
+6. Clicar em criar repositório
+
+7. Vai carregar uma outra página com passo a passo
+
+8. Copia a URL que aparece na tela (exemplo:https://github.com/... .git )
+
+9. Abre a pasta de documentos ou a pasta onde quer criar o novo projeto
+
+10. Clica com o botão direito para abrir no terminal
+
+11. digita o comando para clonar o repositório/projeto do github para a máquina local: git clone Ctrl+V (para colar a URL que copiaram no passo 8)
+
+12. digita o comando para entrar na pasta do repositório criado: cd nomedorepositório (nome do repositório que criou no passo 5)
+
+13. digita o comando para abrir o vscode com essa pasta: code .
+
+14. Pode mexer no código
+
+--------------------------------------------------------------------------------------------------------------
+
+15. Após fazer as alterações, para enviar do local pra o github (repositório remoto) seguimos os 3 passos seguintes:
+      1. git add . (para adicionar as alterações)
+      2. git commit -m "descrição da alteração" (para rotular as alterações)
+      3. git push origin main (para enviar as alterações)
+
